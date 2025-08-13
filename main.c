@@ -2,23 +2,13 @@
 
 int main()
 {
-    
-
-
-
-    float temp;
-    printf("enter a temperature");
-    scanf("%f",&temp);
-    if(temp >= 35.0){
-        printf("temp is very hot");
-    }
-    else if(temp>=25.0)
-    {
-        printf("temp is warm and sunny");
-    }
-    else{
-        printf("temp is cold");
-    }
+    float no1;
+    printf("Enter no:");
+    scanf("%f",&no1);
+    if(no1 % 2 == 0)
+        printf("It is a even no");
+    else 
+        printf("It is a odd");
     return 0;
 }
  
